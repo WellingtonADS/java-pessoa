@@ -22,9 +22,20 @@ Este repositório GitHub apresenta um projeto Java com as classes `Pessoa`, `Tes
 2. Abra o projeto em um IDE Java.
 3. Execute a classe `TestePessoa` para testar as funcionalidades das classes `Pessoa` e `Tela_Pessoa`.
 
+IDE utilizada VSDCOE.
+
+Clique para fazer o Download:
+
+[![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)](https://code.visualstudio.com/Download)
+
 ## Requisitos
 
-* Java Development Kit (JDK) 8 ou superior.
+* Java Development Kit (JDK) 21 ou superior.
+
+Clique para fazer o Download:
+
+[![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](`https://www.oracle.com/java/technologies/downloads/#java21)
+
 
 ## Contribuições
 
@@ -33,6 +44,8 @@ Sinta-se à vontade para contribuir com este projeto! Envie suas sugestões, cor
 ## Licença
 
 Este projeto está licenciado sob a licença MIT.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WellingtonADS)
 
 ## Arquivos
 
