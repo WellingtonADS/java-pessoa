@@ -22,9 +22,9 @@ public class Tela_Veiculo implements ActionListener{
     JFrame tela = new JFrame("Cadastro de Veiculos");
     JPanel painel = new JPanel();
     
-    JLabel lbnome = new JLabel("Modelo: ");
-    JLabel lbidade = new JLabel("Ano: ");
-    JLabel lbcpf= new JLabel("Valor: ");
+    JLabel lbmodelo = new JLabel("Modelo: ");
+    JLabel lbano = new JLabel("Ano: ");
+    JLabel lbvalor= new JLabel("Valor: ");
     
     JTextField txtmodelo = new JTextField();
     JTextField txtano = new JTextField();
@@ -46,10 +46,37 @@ public class Tela_Veiculo implements ActionListener{
         JLabel lbano = new JLabel("Ano: "); // Declare and initialize the variable lbano
         lbano.setBounds(10, 60, 100, 30); // Set the bounds for lbano
 
+        JTextField txtmodelo = new JTextField(); // Declare and initialize the variable txtmodelo
+        txtmodelo.setBounds(120, 20, 200, 30); // Set the bounds for txtmodelo
+
+        JTextField txtano = new JTextField(); // Declare and initialize the variable txtano
+        txtano.setBounds(120, 60, 200, 30); // Set the bounds for txtano
+
+        JTextField txtvalor = new JTextField(); // Declare and initialize the variable txtvalor
+        txtvalor.setBounds(120, 100, 200, 30); // Set the bounds for txtvalor
+
+        JButton btsalvar = new JButton("Salvar"); // Declare and initialize the variable btsalvar
+        btsalvar.setBounds(10, 140, 100, 30); // Set the bounds for btsalvar
+
+        JButton btalterar = new JButton("Alterar"); // Declare and initialize the variable btalterar
+        btalterar.setBounds(120, 140, 100, 30); // Set the bounds for btalterar
+
+        JButton btlistar = new JButton("Listar"); // Declare and initialize the variable btlistar
+        btlistar.setBounds(230, 140, 100, 30); // Set the bounds for btlistar
+
+        JButton btexcluir = new JButton("Excluir"); // Declare and initialize the variable btexcluir
+        btexcluir.setBounds(340, 140, 100, 30); // Set the bounds for btexcluir
+
+        tela.setSize(500, 300);
+        tela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        tela.setLocationRelativeTo(null);
+        tela.setLayout(null);
+
+        painel.setLayout(null);
+
+              
         painel.add(lbmodelo);
         painel.add(txtmodelo);
-        JButton btexcluir = new JButton("Excluir"); // Declare and initialize the variable btexcluir
-        painel.add(btexcluir); // Add btexcluir to the painel
         painel.add(lbano);
         painel.add(txtano);
         painel.add(lbvalor);
