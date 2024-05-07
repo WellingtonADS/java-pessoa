@@ -9,8 +9,12 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-
-
+/**
+ * A classe Tela_Veiculo representa um programa que permite cadastrar e exibir informações de veículos.
+ * 
+ * O programa solicita ao usuário o modelo, ano e valor de cada veículo a ser cadastrado.
+ * Os veículos cadastrados são armazenados em um ArrayList e, em seguida, são exibidos na tela.
+ */
 
 public class Tela_Veiculo implements ActionListener{
 
