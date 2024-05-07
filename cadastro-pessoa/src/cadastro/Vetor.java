@@ -6,15 +6,13 @@ import java.util.Scanner;
 public class Vetor {
 
     public static void main(String[] args) {
-        ArrayList<Veiculo> veiculos = new ArrayList<Veiculo>(); // Initialize the veiculos ArrayList
-        Scanner scanner = new Scanner(System.in); // Replace "into" with "scanner"
+        ArrayList<Veiculo> veiculos = new ArrayList<Veiculo>(); 
+        Scanner scanner = new Scanner(System.in); 
         Veiculo veiculo;
 
         Integer b;
 
-        // Your code here
-
-        scanner.close(); // Close the scanner object to prevent resource leak
+        scanner.close();
 
         do {
             System.out.println("Digite o modelo do veículo: ");
