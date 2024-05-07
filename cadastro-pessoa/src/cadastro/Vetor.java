@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Vetor {
 
     public static void main(String[] args) {
+        
         ArrayList<Veiculo> veiculos = new ArrayList<Veiculo>(); 
         Scanner scanner = new Scanner(System.in); 
         Veiculo veiculo;
