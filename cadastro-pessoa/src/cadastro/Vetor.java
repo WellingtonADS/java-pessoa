@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * A classe Vetor representa um programa que permite cadastrar e exibir informações de veículos.
+ *  A classe Vetor representa um programa que permite cadastrar e exibir informações de veículos.
  * 
  * O programa solicita ao usuário o modelo, ano e valor de cada veículo a ser cadastrado.
- * Os veículos cadastrados são armazenados em um ArrayList e, em seguida, são exibidos na tela.
+ * Os veículos cadastrados são armazenados em um ArrayList e, em seguida, são exibidosna tela.
  */
 public class Vetor {
 
